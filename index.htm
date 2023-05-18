@@ -5,10 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Bootcamp DNC</title>
 </head>
 
 <body>
+    <div id="headerMenu">
+        <nav>
+            <a href="">Home</a>
+            <a href="">Ultimas Edições</a>
+            <a href="">Requisitos Para Participar</a>
+        </nav>
+        <button href="">Login</button>
+    </div>
+    <div id="centerBody">
+        <div>
+            <h1>BOOTCAMP DNC</h1>
+            <p>Esse será um evento exclusivo para todos os alunos<br>
+                da <b>DNC</b>, que querem <mark style="background-color: black; color: #ffffff;"> acelerar a carreira
+                </mark>
+                com uma<br>
+                semana intensiva de conteúdo de mercado entre<br>
+                <mark style="background-color: black; color: #ffffff;"> BACK-END, FRONT-END & BANCO DE DADOS.</mark>
+            </p>
+        </div>
+        <div>
+            <from>
+                <h3>Nome:</h3><br>
+                <input id="placeForm" placeholder="Insira seu nome aqui" type="text" alt="" required>
+                <h3>Sobrenome:</h3><br>
+                <input id="placeForm" placeholder="Insira seu sobrenome aqui" type="text" alt="" required>
+                <h3>Área de Interesse:</h3><br>
+                <div class="checkBox">
+                    <input type="checkbox" value="front">
+                    <label>FRONT-END</label>
+                    <input type="checkbox" value="back">
+                    <label>BACK-END</label>
+                    <input type="checkbox" value="bd">
+                    <label>BANCO-DE-DADOS</label>
+
+                </div>
+                <h3>Email:</h3><br>
+                <input id="placeForm" placeholder="Insira seu e-mail aqui" type="text" alt="" required>
+                <h3>Telefone:</h3><br>
+                <input id="placeForm" placeholder="Insira seu telefone aqui" type="text" alt="" required>
+                <h3>Insira uma frase criativa aqui:</h3><br>
+                <input id="placeForm" placeholder="Qual frase criativa gostaria de falar ? :) " type="text" alt=""
+                    required><br>
+                <button id="logMidButton">LOGIN</button>
+            </from>
+        </div>
+    </div>
 
 </body>
 
